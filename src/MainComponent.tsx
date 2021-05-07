@@ -42,6 +42,7 @@ const StyledBadge = withStyles((theme: Theme) =>
 )(Badge);
 
 const MainComponent = () => {
+    
     const auth = useContext(authContext);
     const links: any = [
         { _id: 2232323, online: true, gender: 'm', avatar: 'https://aui.atlassian.com/aui/8.6/docs/images/avatar-person.svg', age: 40, location: 'Paris', name: 'Jackob' },
